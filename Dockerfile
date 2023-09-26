@@ -6,6 +6,6 @@ WORKDIR /var/app
 
 COPY . .
 
-#RUN bundle install
+RUN bundle install
 
 CMD ["rspec"]
