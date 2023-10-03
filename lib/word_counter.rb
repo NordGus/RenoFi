@@ -10,7 +10,4 @@ class WordCounter
   def call
     Trie.new.insert_words(words: text.split(" ")).word_count
   end
-
-  private
-
 end
