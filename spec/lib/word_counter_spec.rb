@@ -32,7 +32,7 @@ RSpec.describe WordCounter do
       let(:text) { "can, canada" }
 
       it "should return the correct number of words" do
-        expect(subject.call).to eq(4)
+        expect(subject.call).to eq(2)
       end
     end
   end
